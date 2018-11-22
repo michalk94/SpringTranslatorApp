@@ -1,3 +1,4 @@
-pies;dog
-kot;cat
-okno;window
+Entry(originalWord=pies, translatedWord=dog)
+Entry(originalWord=kot, translatedWord=cat)
+Entry(originalWord=okno, translatedWord=window)
+Entry(originalWord=Szczur, translatedWord=rat)

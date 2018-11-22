@@ -1,16 +1,21 @@
 package springboot.dependencyinjection.springbootsimpleproject;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
 import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Set;
 
+@Controller
 public class LinguController {
     private static final int UNDEFINED = -1;
     private static final int ADD_ENTRY = 0;
     private static final int TEST = 1;
     private static final int CLOSE_APP = 2;
 
+    @Autowired
     private EntryRepository entryRepository = new EntryRepository();
     private FileService fileService = new FileService();
     private Scanner scanner = new Scanner(System.in);
