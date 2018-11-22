@@ -4,9 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LinguApp {
+public class LinguApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LinguApp.class, args);
+
+        SpringApplication.run(LinguApplication.class, args);
     }
 }
